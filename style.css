@@ -1,55 +1,98 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Partap Singh Phagura - Resume</title>
-  <link rel="stylesheet" href="styles.css" />
-</head>
-<body>
-  <header>
-    <h1>Partap Singh Phagura</h1>
-    <p>Chartered Accountant</p>
-  </header>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  <section class="content">
-    <h2>About Me</h2>
-    <p>
-      Over the years, I have liked to work and help people. So, I have gathered work experience through working with the family business, the Surrey Now Leader (newspaper), and volunteering with the City of Surrey. In India, our family business is farming, and we grow poplar trees. I have been involved with cutting them down and the planting process. With the City of Surrey, I delivered the newspaper in the 5th grade, and in high school, I got some volunteer hours with the libraries and other organizations. I mainly love volunteering since I get to help people, for which I take much pride.
-    </p>
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #333;
+  padding: 20px;
+}
 
-    <h2>Education</h2>
-    <ul>
-      <li>Seaquam (2022–2025)</li>
-      <li>Air Cadets (2021–2025)</li>
-      <li>First Aid Training (2022–2025)</li>
-    </ul>
+/* Header */
+header {
+  text-align: center;
+  background-color: #004080;
+  color: white;
+  padding: 40px 20px 30px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
 
-    <h2>Work Experience</h2>
-    <ul>
-      <li>Working for the family business in India farming poplar trees</li>
-      <li>Volunteering at the library and school</li>
-      <li>Delivered newspapers for 2 months</li>
-    </ul>
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
 
-    <h2>Skills</h2>
-    <ul>
-      <li>MS Word</li>
-      <li>MS PowerPoint</li>
-      <li>MS Excel</li>
-      <li>Languages: English, Punjabi, French</li>
-    </ul>
+header p {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
 
-    <h2>References</h2>
-    <p>Available upon request</p>
+/* Content Area */
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
 
-    <h2>Contact</h2>
-    <p>Email: your.email@example.com</p>
-    <p>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></p>
-  </section>
+/* Headings */
+.content h2 {
+  color: #004080;
+  border-bottom: 2px solid #ddd;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding-bottom: 5px;
+  font-size: 1.5rem;
+}
 
-  <footer>
-    <p>&copy; 2025 Partap Singh Phagura</p>
-  </footer>
-</body>
-</html>
+/* Paragraphs & Lists */
+.content p,
+.content li {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.content ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* Links */
+a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9rem;
+  color: #888;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  .content {
+    padding: 20px;
+  }
+
+  .content h2 {
+    font-size: 1.3rem;
+  }
+}

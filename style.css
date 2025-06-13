@@ -12,7 +12,7 @@ body {
   padding: 20px;
 }
 
-/* Header */
+/* Header Styles */
 header {
   text-align: center;
   background-color: #004080;
@@ -20,6 +20,7 @@ header {
   padding: 40px 20px 30px;
   border-radius: 8px;
   margin-bottom: 30px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
 header h1 {
@@ -33,7 +34,7 @@ header p {
 }
 
 /* Content Area */
-.content {
+main.content {
   max-width: 800px;
   margin: 0 auto;
   background-color: white;
@@ -42,7 +43,11 @@ header p {
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
 
-/* Headings */
+section {
+  margin-bottom: 30px;
+}
+
+/* Section Titles */
 .content h2 {
   color: #004080;
   border-bottom: 2px solid #ddd;
@@ -52,7 +57,7 @@ header p {
   font-size: 1.5rem;
 }
 
-/* Paragraphs & Lists */
+/* Paragraphs and Lists */
 .content p,
 .content li {
   font-size: 1rem;
@@ -74,7 +79,7 @@ a:hover {
   text-decoration: underline;
 }
 
-/* Footer */
+/* Footer Styles */
 footer {
   text-align: center;
   margin-top: 40px;
@@ -82,7 +87,7 @@ footer {
   color: #888;
 }
 
-/* Responsive design */
+/* Responsive Design */
 @media (max-width: 600px) {
   header h1 {
     font-size: 2rem;
